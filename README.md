@@ -55,12 +55,10 @@ git clone https://github.com/nooromit-git/noro-panel.git
 
 مرحله ۲: ورود به سی‌پنل هاست خود
 آدرس: https://yourdomain.com:2083 یا https://cpanel.yourdomain.com
-
 با نام کاربری و رمز عبور هاست وارد شوید.
 
 مرحله ۳: باز کردن File Manager
 در سی‌پنل، بخش File Manager را باز کنید.
-
 به مسیر public_html (یا زیرپوشه دلخواه) بروید.
 
 مرحله ۴: آپلود فایل‌ها
@@ -72,7 +70,6 @@ git clone https://github.com/nooromit-git/noro-panel.git
 
 مرحله ۵: تنظیم دسترسی‌ها
 روی پوشه اصلی راست کلیک کنید → Change Permissions
-
 برای پوشه‌ها مقدار 755 و برای فایل‌ها مقدار 644 تنظیم کنید.
 
 مرحله ۶: ورود به پنل
@@ -119,11 +116,8 @@ https://yourdomain.com/noro-panel/
 اگر نوروپنل به کارتان آمد، لطفاً:
 
 ⭐ به این ریپو ستاره (Star) دهید
-
 🔄 آن را با دیگران به اشتراک بگذارید
-
 📢 در کانال تلگرام عضو شوید
-
 🐛 اگر باگی دیدید، در Issues گزارش دهید
 
 📜 مجوز

@@ -48,92 +48,119 @@
 
 > نصب نوروپنل کمتر از **۳ دقیقه** طول می‌کشد.
 
-### مرحله ۱: دانلود فایل‌ها
-```bash
-git clone https://github.com/nooromit-git/noro-panel.git
+### مرحله ۱: دانلود فایل‌
 یا از گیت‌هاب به صورت ZIP دانلود کنید.
 
-مرحله ۲: ورود به سی‌پنل هاست خود
-آدرس: https://yourdomain.com:2083 یا https://cpanel.yourdomain.com
+### مرحله ۲: ورود به سی‌پنل هاست خود
+آدرس: `https://yourdomain.com:2083` یا `https://cpanel.yourdomain.com`
+
 با نام کاربری و رمز عبور هاست وارد شوید.
 
-مرحله ۳: باز کردن File Manager
-در سی‌پنل، بخش File Manager را باز کنید.
-به مسیر public_html (یا زیرپوشه دلخواه) بروید.
+### مرحله ۳: باز کردن File Manager
+در سی‌پنل، بخش **File Manager** را باز کنید.
 
-مرحله ۴: آپلود فایل‌ها
-دکمه Upload را بزنید.
+به مسیر `public_html` (یا زیرپوشه دلخواه) بروید.
 
-تمام فایل‌های پنل (پوشه noro-panel) را انتخاب و آپلود کنید.
+### مرحله ۴: آپلود فایل‌ها
+دکمه **Upload** را بزنید.
 
-پس از آپلود، فایل‌ها را از حالت فشرده خارج کنید (Extract).
+تمام فایل‌های پنل (پوشه `noro-panel`) را انتخاب و آپلود کنید.
 
-مرحله ۵: تنظیم دسترسی‌ها
-روی پوشه اصلی راست کلیک کنید → Change Permissions
-برای پوشه‌ها مقدار 755 و برای فایل‌ها مقدار 644 تنظیم کنید.
+پس از آپلود، فایل‌ها را از حالت فشرده خارج کنید (**Extract**).
 
-مرحله ۶: ورود به پنل
+### مرحله ۵: تنظیم دسترسی‌ها
+روی پوشه اصلی راست کلیک کنید → **Change Permissions**
+
+برای پوشه‌ها مقدار `755` و برای فایل‌ها مقدار `644` تنظیم کنید.
+
+### مرحله ۶: ورود به پنل
 آدرس زیر را در مرورگر باز کنید:
 
-text
-https://yourdomain.com/noro-panel/
-نام کاربری: admin
-رمز عبور: admin
+`https://yourdomain.com/noro-panel/`
+
+**نام کاربری:** `admin`  
+**رمز عبور:** `admin`
 
 رمز عبور را می‌توانید بعد از ورود از طریق صفحه تنظیمات تغییر دهید (بدون نیاز به دیتابیس).
 
-📚 آموزش سریع استفاده از امکانات
-کار	نحوه انجام
-آپلود فایل	روی دکمه آپلود کلیک کنید یا فایل را بکشید و رها کنید.
-ساخت پوشه جدید	روی دکمه "New Folder" کلیک کنید و نام پوشه را وارد کنید.
-ویرایش فایل	روی فایل مورد نظر کلیک کنید → گزینه Edit را بزنید.
-رمزگذاری فایل	فایل را انتخاب کنید → گزینه Encrypt را بزنید و رمز عبور وارد کنید.
-جستجو	از کادر جستجو در بالای صفحه استفاده کنید.
-حذف گروهی	چند فایل را انتخاب کنید → دکمه Delete را بزنید.
-❓ سوالات متداول (FAQ)
-سوال ۱: آیا روی هاست‌های ایرانی مثل ایران‌سرور و پارس‌پک کار می‌کند؟
+---
+
+## 📚 آموزش سریع استفاده از امکانات
+
+| کار | نحوه انجام |
+|-----|-------------|
+| آپلود فایل | روی دکمه آپلود کلیک کنید یا فایل را بکشید و رها کنید. |
+| ساخت پوشه جدید | روی دکمه "New Folder" کلیک کنید و نام پوشه را وارد کنید. |
+| ویرایش فایل | روی فایل مورد نظر کلیک کنید → گزینه Edit را بزنید. |
+| رمزگذاری فایل | فایل را انتخاب کنید → گزینه Encrypt را بزنید و رمز عبور وارد کنید. |
+| جستجو | از کادر جستجو در بالای صفحه استفاده کنید. |
+| حذف گروهی | چند فایل را انتخاب کنید → دکمه Delete را بزنید. |
+
+---
+
+## ❓ سوالات متداول (FAQ)
+
+**سوال ۱: آیا روی هاست‌های ایرانی مثل ایران‌سرور و پارس‌پک کار می‌کند؟**  
 بله، روی تمام هاست‌هایی که PHP نسخه ۷.۴ یا بالاتر داشته باشند تست شده است.
 
-سوال ۲: آیا نیاز به دانش برنامه‌نویسی دارم؟
+**سوال ۲: آیا نیاز به دانش برنامه‌نویسی دارم؟**  
 خیر، پنل کاملاً آماده است و بدون نیاز به کدنویسی کار می‌کند.
 
-سوال ۳: رمز پیش‌فرض چیست؟
-نام کاربری: admin – رمز عبور: admin
+**سوال ۳: رمز پیش‌فرض چیست؟**  
+نام کاربری: `admin` – رمز عبور: `admin`
 
-سوال ۴: آیا فایل‌های من امن هستند؟
+**سوال ۴: آیا فایل‌های من امن هستند؟**  
 بله. رمز عبور به صورت هش شده ذخیره می‌شود و دسترسی به فایل‌های داخلی بسته شده است.
 
-سوال ۵: اگر رمز را فراموش کردم چه کار کنم؟
+**سوال ۵: اگر رمز را فراموش کردم چه کار کنم؟**  
 با پشتیبانی تلگرام تماس بگیرید تا راهنمایی شوید.
 
-📞 پشتیبانی و ارتباط با ما
-راه ارتباطی	لینک / آیدی	توضیح
-📢 کانال تلگرام	@nooromit	اطلاعیه پروژه‌ها، آموزش‌ها، آپدیت‌ها
-🧑‍💻 پشتیبانی مستقیم	@mahanqxm	ارتباط سریع برای رفع باگ و همکاری
-🌐 سایت پروژه امنیتی	nooromit.ir/sos	سامانه هوشمند امنیت سایبری
-🐙 گیت‌هاب	@nooromit-git	همه پروژه‌های متن‌باز من
-🤝 مشارکت و حمایت
+---
+
+## 📞 پشتیبانی و ارتباط با ما
+
+| راه ارتباطی | لینک / آیدی | توضیح |
+|--------------|--------------|--------|
+| 📢 کانال تلگرام | [@nooromit](https://t.me/nooromit) | اطلاعیه پروژه‌ها، آموزش‌ها، آپدیت‌ها |
+| 🧑‍💻 پشتیبانی مستقیم | [@mahanqxm](https://t.me/mahanqxm) | ارتباط سریع برای رفع باگ و همکاری |
+| 🌐 سایت پروژه امنیتی | [nooromit.ir/sos](https://nooromit.ir/sos) | سامانه هوشمند امنیت سایبری |
+| 🐙 گیت‌هاب | [@nooromit-git](https://github.com/nooromit-git) | همه پروژه‌های متن‌باز من |
+
+---
+
+## 🤝 مشارکت و حمایت
+
 اگر نوروپنل به کارتان آمد، لطفاً:
 
-⭐ به این ریپو ستاره (Star) دهید
-🔄 آن را با دیگران به اشتراک بگذارید
-📢 در کانال تلگرام عضو شوید
-🐛 اگر باگی دیدید، در Issues گزارش دهید
+⭐ به این ریپو **ستاره (Star)** دهید  
+🔄 آن را با دیگران **به اشتراک** بگذارید  
+📢 در **کانال تلگرام** عضو شوید  
+🐛 اگر باگی دیدید، در **Issues** گزارش دهید
 
-📜 مجوز
-این پروژه تحت مجوز MIT منتشر شده است – آزاد برای استفاده شخصی، تجاری، و حتی تغییر و بازنشر با ذکر منبع.
+---
+
+## 📜 مجوز
+
+این پروژه تحت مجوز **MIT** منتشر شده است – آزاد برای استفاده شخصی، تجاری، و حتی تغییر و بازنشر با ذکر منبع.
+
+---
 
 <div align="center">
-🌟 خلاصه انگلیسی (English Summary)
-Noro Panel is a professional, lightweight, and database‑free file manager panel similar to cPanel. It works on all cPanel hosting and regular shared hosting without requiring VPS. Features include file upload/download, online code editor, folder creation, file encryption, strong login system (default admin/admin), search, storage stats, and high security. Installation takes less than 3 minutes via cPanel File Manager. Completely free and open source under MIT license.
 
-Support: Telegram @nooromit | Direct @mahanqxm
-Security project: nooromit.ir/sos
+### 🌟 خلاصه انگلیسی (English Summary)
 
-</div><div align="center">
-❤️ توسعه داده شده توسط نورومیت | Nooromit برای جامعه برنامه‌نویسان فارسی ❤️
+**Noro Panel** is a professional, lightweight, and database‑free file manager panel similar to cPanel. It works on all cPanel hosting and regular shared hosting without requiring VPS. Features include file upload/download, online code editor, folder creation, file encryption, strong login system (default admin/admin), search, storage stats, and high security. Installation takes less than 3 minutes via cPanel File Manager. Completely free and open source under MIT license.
 
-https://img.shields.io/github/followers/nooromit-git?style=social
-https://img.shields.io/badge/Join-Telegram_Channel-blue?logo=telegram&style=social
+**Support:** Telegram [@nooromit](https://t.me/nooromit) | Direct [@mahanqxm](https://t.me/mahanqxm)  
+**Security project:** [nooromit.ir/sos](https://nooromit.ir/sos)
 
-</div> ```
+</div>
+
+<div align="center">
+
+❤️ توسعه داده شده توسط **نورومیت | Nooromit** برای جامعه برنامه‌نویسان فارسی ❤️
+
+[![GitHub followers](https://img.shields.io/github/followers/nooromit-git?style=social)](https://github.com/nooromit-git)
+[![Telegram Channel](https://img.shields.io/badge/Join-Telegram_Channel-blue?logo=telegram&style=social)](https://t.me/nooromit)
+
+</div>
